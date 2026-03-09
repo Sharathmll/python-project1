@@ -1,1 +1,1 @@
-# This is a python project called fiday
+# This is a python project called friday
