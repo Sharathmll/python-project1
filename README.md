@@ -1,1 +1,1 @@
-# This is a python project called friday
+# THIS IS PYTHON PROJECT CALLED FRIDAY
