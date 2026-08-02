@@ -6,7 +6,7 @@ user_h=input("Enter the city name: ")
 weather_data=r.get(f"https://api.openweathermap.org/data/2.5/weather?q={user_h}&units=imperial&APPID={api_key}")
 
 data=weather_data.json()
-if data['cod']==404:
+if data['cod']=="404":
     print("No city found")
 else:
     weather=data['weather'][0]['main']
